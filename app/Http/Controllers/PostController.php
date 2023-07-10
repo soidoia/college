@@ -18,6 +18,10 @@ class PostController extends Controller
         
        //blade内で使う変数'posts'と設定。'posts'の中身にgetを使い、インスタンス化した$postを代入。
     }
+    public function create()
+    {
+        return view('posts.create');
+    }
 }
 
 ?>
