@@ -14,10 +14,11 @@ class PostController extends Controller
     
     public function show(Post $post)
     {
-        return view('posts.show')->with(['posts' => $post]);
+        return view('posts.show')->with(['post' => $post]);
         
        //blade内で使う変数'posts'と設定。'posts'の中身にgetを使い、インスタンス化した$postを代入。
     }
+    
 }
 
 ?>

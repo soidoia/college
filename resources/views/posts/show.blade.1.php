@@ -8,14 +8,14 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         </head>
-        <body>
+        <body class='anticliased'>
             <h1 class='title'>
                 {{ $post->title }}
             </h1>
             <div class='content'>
-                <div class='contet__post'>
+                <div class='contet_post'>
                     <h3>本文</h3>
-                    <p>{{ $post->body }}</p>
+                    <p class='body'>{{ $post->body }}</p>
                 </div>
             </div>
             <div class='footer'>
